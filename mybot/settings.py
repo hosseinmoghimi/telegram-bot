@@ -14,10 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
-TELEGRAM = {
-    'bot_token': '5189934262:AAFVKQ2pxG7OdDHiu85Lr7bv6llPRS1_VLI',
-    'channel_name': 'Mybot',
-}
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
